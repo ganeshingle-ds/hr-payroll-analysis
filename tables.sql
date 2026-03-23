@@ -29,13 +29,12 @@ CONSTRAINT chk_role CHECK (job_role IN('Developer','Manager','HR','Accountant','
 );
 
 INSERT INTO employees VALUES
-(101, 'Amit
-Sharma','amit@company.com','9876543210','2022-0110',2,'Developer'),
-(102, 'Priya Singh','priya@company.com','9922334455','2021-0315',1,'HR'),
-(103, 'Rahul Verma','rahul@company.com','8811223344','2020-0722',2,'Manager'),
-(104, 'Neha Joshi','neha@company.com','9988776655','2023-0210',4,'Tester'),
-(105, 'Karan Patel','karan@company.com','9090909090','2019-1101',3,'Accountant'),
-(106, 'Sonia Mehta','sonia@company.com','8899001122','2021-0419',2,'Developer');
+(101, 'Amit Sharma','amit@company.com','9876543210','2022-01-10',2,'Developer'),
+(102, 'Priya Singh','priya@company.com','9922334455','2021-03-15',1,'HR'),
+(103, 'Rahul Verma','rahul@company.com','8811223344','2020-07-22',2,'Manager'),
+(104, 'Neha Joshi','neha@company.com','9988776655','2023-02-10',4,'Tester'),
+(105, 'Karan Patel','karan@company.com','9090909090','2019-11-01',3,'Accountant'),
+(106, 'Sonia Mehta','sonia@company.com','8899001122','2021-04-19',2,'Developer');
 
 
 -- 3) Projects table with project details for tracking employee assignments and project timelines
