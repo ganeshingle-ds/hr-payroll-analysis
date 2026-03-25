@@ -38,19 +38,35 @@
    Complex Queries: Implementation of Subqueries and Window Functions to solve specific business logic.
 
    
-# 💡 Business Insights (Sample Queries)
+   
+# 📊 Business Insights 
 
-   The system provides several critical insights, such as:
+1 Organizational Structure & Talent:
 
-   Salary Benchmarking: Identifying employees earning above the company average.
+The system manages 5 key departments (HR, Development, Finance, QA, Management) across locations like Pune and Mumbai.
 
-   Resource Allocation: Detecting "Idle Resources" (employees not currently assigned to any project).
+It enforces standardized job roles (Developer, Manager, HR, Accountant, Tester) and tracks employee tenure from 2019 to analyze workforce growth and retention trends.
 
-   Departmental Budgeting: Calculating total payroll costs and employee headcount per department.
+2 Financial & Payroll Analytics:
+
+Provides a detailed salary structure including Basic Salary, Bonus, and Deductions. 
+
+Enables accurate net salary calculation (Basic + Bonus − Deductions) and supports ranking functions to identify top-performing and highest-paid employees for performance evaluation.
+
+3 Project Management & Resource Allocation:
+
+Tracks employee involvement in multiple projects (e.g., Payroll System, E-Commerce Portal).
+
+Monitors roles within projects to ensure balanced resource allocation and uses project timelines (start/end dates) to identify underutilized projects for better planning.
+
+
+4 Operational Efficiency:
+
+Captures daily attendance (Present, Absent, Leave) and enables month-wise analysis to detect trends. 
+
+Helps identify highly reliable employees with consistent or 100% attendance, improving workforce productivity insights.
 
    
-
-
 
 # 🔍 Sample Queries 
 
